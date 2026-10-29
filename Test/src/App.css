@@ -1,0 +1,40 @@
+/* Main page */
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Dashboard heading */
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* All buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+  background-color: #217dbb;
+}
+
+/* Dashboard options */
+#root>div>div {
+  margin-top: 20px;
+}
